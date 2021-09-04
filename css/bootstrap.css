@@ -9212,6 +9212,10 @@ a.text-dark:hover {
     color: rgba(0, 0, 0, .5) !important
 }
 
+.text-black-100 {
+    color: rgba(0, 0, 0, 1) !important
+}
+
 .text-white-50 {
     color: rgba(255, 255, 255, .5) !important
 }
