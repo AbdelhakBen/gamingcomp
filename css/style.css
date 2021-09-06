@@ -2809,14 +2809,19 @@ h6 {
   .made_life_area.made_white .left_side_text {
     margin-bottom: 0px;
     margin-top: 30px; } }
+
+
 @media (max-width: 575px) {
   .header_area + section, .header_area + row, .header_area + div {
     margin-top: 71px; }
   
-
   .tournament_rounds_item_head {
   font-size: 14px !important; }
   
+  .sponsor-element {
+    width: 60%;
+  }
+
     /* Home Banner Area css
 	============================================================================================ */
   .home_banner_area .banner_inner .banner_content h2 {
@@ -4072,4 +4077,10 @@ h6 {
 
 .teaser {
   margin-top: 80px;
+}
+
+.sponsor-element {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
