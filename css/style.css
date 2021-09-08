@@ -2885,6 +2885,10 @@ h6 {
     font-size: 11px !important;
     padding: 0px 5px 0px 5px !important; }
 
+  .rules_button {
+    font-size: 18px !important;
+    text-align: left;  }
+
   /* Main Menu Area css
   ============================================================================================ */
   /* End Main Menu Area css
