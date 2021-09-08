@@ -2871,6 +2871,8 @@ h6 {
 
   .pad_btm {
     padding-bottom: 70px; } }
+
+
 @media (max-width: 480px) {
   
   .accordion-body {
@@ -2878,6 +2880,11 @@ h6 {
 
   .tournament_rounds_item_head {
   font-size: 12px !important; }
+
+  .formulaire_btn {
+    font-size: 11px !important;
+    padding: 0px 5px 0px 5px !important; }
+
   /* Main Menu Area css
   ============================================================================================ */
   /* End Main Menu Area css
