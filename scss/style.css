@@ -4051,6 +4051,65 @@ h6 {
 
 /* End Tournament Tabs */
 
+/* Tournament Prizes */
+
+.tournament_prix {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 40px;
+  color: #013e6f;
+  font-family: montserrat, monospace;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+  .tournament_prix .number {
+    color: #0bd9f0 !important;
+  }
+
+  .tournament_prix .prize {
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tournament_prix .winner_position {
+    text-align: center;
+    color: #013e6f;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .tournament_prix .winner_position span {
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .tournament_prix .winner_position span:before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    left: 0;
+    top: calc(50% - 5px);
+    background-color: initial;
+  }
+
+  .tournament_prix .winner_position_first span:before {
+    background-color: #ffd800;
+  }
+  .tournament_prix .winner_position_second span:before {
+    background-color: #999;
+  }
+
+/* End Tournament Prizes */
+
 .logo_CAP {
   display: flex;
   justify-content: center;
