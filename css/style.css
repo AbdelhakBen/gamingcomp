@@ -2756,6 +2756,9 @@ h6 {
   .left_side_text {
     margin-bottom: 50px; }
 
+  .tournament_prix {
+  font-size: 20px !important; }
+
   .price_item {
     max-width: 360px;
     margin: 0px auto 30px; }
@@ -2764,6 +2767,9 @@ h6 {
     margin-bottom: -30px; } }
 @media (max-width: 767px) {
   
+  .tournament_prix {
+    font-size: 18px !important; }
+
   .home_banner_area .banner_inner .home_left_img {
     display: none; }
   
@@ -2822,6 +2828,8 @@ h6 {
     width: 60%;
   }
 
+  .tournament_prix {
+    font-size: 16px !important; }
     /* Home Banner Area css
 	============================================================================================ */
   .home_banner_area .banner_inner .banner_content h2 {
@@ -4070,7 +4078,7 @@ h6 {
   }
 
   .tournament_prix .prize {
-    width: 500px;
+    width: 70%;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: auto;
@@ -4080,7 +4088,6 @@ h6 {
   .tournament_prix .winner_position {
     text-align: center;
     color: #013e6f;
-    font-size: 22px;
     text-transform: uppercase;
     margin: 0;
   }
