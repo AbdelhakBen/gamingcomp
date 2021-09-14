@@ -20,6 +20,7 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/bracket1.css">
 </head>
 <body>
         
@@ -162,6 +163,20 @@
 										</div>
 									</div>
 								</div>
+								<div class="accordion-item mb-3">
+									<h2 class="accordion-header">
+										<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#collapse1">Organisation du tournoi</button>
+									</h2>
+									<div class="accordion-collapse collapse" id="collapse1">
+										<div class="accordion-body">
+											Dans chaque partie, l'organisateur résponsable choisira une équipe pour créer une <strong>partie privée</strong> avec:
+											<ul>
+												<li><strong>Name :</strong> NomEquipe1_NomEquipe2</li>
+												<li><strong>Password :</strong> au choix</li>
+											</ul>
+										</div>
+									</div>
+								</div>
 								<div class="accordion-item  mb-3">
 									<h2 class="accordion-header">
 										<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Configuration de la partie</button>
@@ -171,8 +186,10 @@
 											La partie de Rocket League aura la configuration suivante :
 											<ul>
 												<li><strong>CrossPlatform :</strong> Activé (Xbox one, Ps4, PC)</li>
+												<li><strong>Game Mode :</strong> SOCCER</li>
 												<li><strong>Serveurs :</strong> Europe</li>
-												<li><strong>Stade :</strong> DFH</li>
+												<li><strong>Stade :</strong> DFH Stadium</li>
+												<li><strong>Mutator Settings :</strong> Series Length: 3 games and the rest are default settings.</li>
 											</ul>
 										</div>
 									</div>
@@ -306,30 +323,361 @@
             </div>
 			<div class="tab-pane" id="bracket">
                 <div class="row g-0 rounded">
-                    <div class="col p-4">
-                        <div class="tournament_bracket_title">
+                    <div class="col pt-4 pb-4 pr-0 pl-0">
+                        <div class="tournament_bracket_title mb-5">
 							<span>Bracket</span>
 						</div>
-						<div class="tournament_tabs_container">
-							<section class="tournament_bracket_tab is-visible">
-								<div class="tournament_bracket is-not-generated">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-										<path fill="currentColor" fill-rule="evenodd" d="M29.325 27.825h5.85v7.987H32.7V30.3h-9.188v5.512h-2.474v-7.987h5.813v-5.1H9.15v5.1h5.812v7.987h-2.474V30.3H3.3v5.512H.825v-7.987h5.85V20.25h10.087v-5.204h2.476v5.204h10.087v7.575zM18 9.946l-3.708 2.05.708-4.34-3-3.074 4.146-.633L18 0l1.854 3.949L24 4.582l-3 3.073.708 4.34L18 9.946z"></path>
-									</svg>
-									<div>
-										<span>Le bracket sera généré au début du tournoi.</span>
-									</div>
-									<div class="tournament_bracket_start_time">
-										<span>
-											Début du tournoi :
-											<br>
-											<span class="tournament_participants_start_time_value">
-												Mercredi 15 septembre 2021, 10:00
-											</span>
-										</span>
-									</div>
-								</div>
-							</section>
+						<div class="container">
+                            <div class="bracket">
+                                <div class="bracket_rounds">
+                                    <ul class="bracket_rounds_round">
+                                        <li>1/16 de finale</li>
+										<li>1/8 de finale</li>
+                                        <li>quart de finale</li>
+                                        <li>demi-finale</li>
+										<li></li>
+										<li></li>
+										<li class="p-1"></li>
+										<li>demi-finale</li>
+										<li>quart de finale</li>
+										<li>1/8 de finale</li>
+										<li>1/16 de finale</li>
+                                    </ul>
+                                </div>
+                                <section class="round quarterfinals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>bipolairEZ</span></div>
+                                                    <div class="participant"><span>Equipe 1</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant winner"><span>Avengers</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>Dark</span></div>
+                                                    <div class="participant"><span>Equipe 3</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant winner"><span>DGDG</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>GS</span></div>
+                                                    <div class="participant"><span>Equipe 5</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant winner"><span>INTZ</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>Les amis de Yazid</span></div>
+                                                    <div class="participant"><span>Equipe 7</span></div>
+                                                </div>
+                                            </div>
+											<div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant winner"><span>Mangemort Squad</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="round semifinals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span>Avengers</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span>DGDG</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span>INTZ</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span>Mangemort Squad</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="round ssemifinals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="round sfinals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round finals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+												<div class="trophy">
+													<i class="fa fa-trophy"></i>
+													<div class="bracket_finale mb-3">Finale<br/><span class="round_date">18 Septembre</span></div> 
+												</div>
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round sfinals">
+                                    <div class="winners">
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round ssemifinals">
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round semifinals">
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span>LMS</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span>Make Hawk</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>malaginiyez</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span>We Dem Boys</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round quarterfinals">
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>L'ekip les chips</span></div>
+                                                    <div class="participant"><span>Equipe 8</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant winner"><span>LMS</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>Lunar wolves</span></div>
+                                                    <div class="participant"><span>Equipe 2</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant winner"><span>Make Hawk</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant winner"><span>malaginiyez</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>Real madrid</span></div>
+                                                    <div class="participant"><span>Equipe 4</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span>Sholazar</span></div>
+                                                    <div class="participant"><span>Equipe 6</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant winner"><span>We Dem Boys</span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="mb-5"></div>
+                            </div>
 						</div>
                     </div>
                 </div>
@@ -340,11 +688,355 @@
                         <div class="tournament_participants_title">
 							<span>participants</span>
 						</div>
-                        <div class="tournament_bracket is-not-generated">
-							<div>
-								<span>Les participants seront annoncés ultérieurement.</span>
-							</div>
+                        <div class="tournament_tabs_container">
+							<section class="tournament_participants_tab is-visible my-4">
+								<div class="tournament_participants_container">
+									<div class="grid_wrapper pl-0 pr-0">
+										<div class="row accordion" id="accordionSection">
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player1">bipolairEZ</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player1">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Zer Racim</li>
+															<li>Ehm Bouazza</li>
+															<li>Hanachi Sidali</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player2">Avengers</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player2">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Sallal Akram</li>
+															<li>Sadou Oussama</li>
+															<li>Bourahla Ayoub</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player3">Dark</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player3">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Fekkai Ahmed</li>
+															<li>SIGUERDJIDJENE Anes</li>
+															<li>Boucetta Ali abderrahmane</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player4">DGDG</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player4">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Mama Mohamed abderraouf</li>
+															<li>Rebaine Adel</li>
+															<li>Ziani Ghiles</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player5">GS</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player5">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Medour Hocine</li>
+															<li>Machou Sidali</li>
+															<li>Nabti Rayan</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player6">INTZ</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player6">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Simoussi Ghiles</li>
+															<li>Redjem Abderraouf</li>
+															<li>Remache Souhil</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player7">L'ekip les chips</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player7">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Benaferi Djazil</li>
+															<li>Chadouli Yanis</li>
+															<li>Boutarfa Zakaria</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player8">Les amis de Yazid</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player8">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Zakari Karim</li>
+															<li>Mouloudj Amine</li>
+															<li>Larbi Abdennour Manil</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player9">LMS</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player9">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Harouz Salim</li>
+															<li>Mokhtari Azzedine</li>
+															<li>Bouchiba Mehdi</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player10">Lunar wolves</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player10">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>KHEBIZA Mohammed</li>
+															<li>Mammeri Chemsou</li>
+															<li>Laroui aymen</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player11">Make Hawk</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player11">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Henni Douma Salah Eddine</li>
+															<li>BENKOUITEN Adel</li>
+															<li>Bentata Rassim</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player12">malaginiyez</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player12">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>nouicer sami ilyas</li>
+															<li>Bellounis ramzi khalil</li>
+															<li>boody booda</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player13">Mangemort Squad</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player13">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Mami Mehdi</li>
+															<li>Begoudoum Nazim</li>
+															<li>Mami Samy</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player14">Real madrid</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player14">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Rami Hamdi</li>
+															<li>Nacer Belaidi</li>
+															<li>Yassine Tellache</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player15">Sholazar</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player15">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Benaissa Louai </li>
+															<li>Feddal mohamed ihab</li>
+															<li>ADJAL Massyl</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player16">We Dem Boys</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player16">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Massi Farhi</li>
+															<li>Sebahi Khalil</li>
+															<li>Saikyō Saikyō</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player17">équipe 1</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player17">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Belkhoumali Ahmed Abdelmounaim</li>
+															<li>BENMOUSSA Abdeldjalil</li>
+															<li>Drici Mouhammed hachem</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player18">équipe 2</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player18">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Riad Chekri</li>
+															<li>ADJOU AMINE</li>
+															<li>Alloula Missoum</li>
+														</ul>
+														
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player19">équipe 3</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player19">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Islam Bouras</li>
+															<li>Mikou Abbaoui</li>
+															<li>Lanacer Youcef</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player20">équipe 4</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player20">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Abed meraim Raouf</li>
+															<li>Tertag Mohamed ziad</li>
+															<li>Mahdjour Oussama</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player22">équipe 5</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player22">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Nasry Wassim</li>
+															<li>Tounsi Khaled </li>
+															<li>Ait mesbah Idir</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player23">équipe 6</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player23">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Racimo GT</li>
+															<li>BENAMARA MOHAMED YOUNES</li>
+															<li>Khati Abdallah Iyed </li>
+														</ul>	
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player24">équipe 7</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player24">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>KHALEF Hamza</li>
+															<li>Gueddoura Redouane</li>
+															<li>Djoudi Rafik</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="accordion-item mb-3 col-lg-4 col-md-6 col-sm-6">
+												<h2 class="accordion-header">
+													<button type="button" class="accordion-button collapsed rules_button" data-bs-toggle="collapse" data-bs-target="#player25">équipe 8</button>
+												</h2>
+												<div class="accordion-collapse collapse" id="player25">
+													<div class="accordion-body">
+														<ul class="pl-3 m-0">
+															<li>Sadki Achref</li>
+															<li>Hakim Cheriet</li>
+															<li>Guemmadi Iheb</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
 						</div>
+                    </div>
+
                     </div>
                 </div>
             </div>
