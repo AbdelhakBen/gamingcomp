@@ -21,6 +21,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/barcket_fifa.css"
 </head>
 
 <body>
@@ -123,7 +124,7 @@
 									Début du tournoi :
 									<br>
 									<span class="tournament_participants_start_time_value">
-										Mercredi 15 Septembre 2021, 10:00
+										Jeudi 16 Septembre 2021, 10:00
 									</span>
 								</span>
 							</div>
@@ -985,6 +986,16 @@
 													<td>0:0</td>
 													<td>0</td>
 												</tr>
+												<tr>
+													<td>5</td>
+													<td><strong class="team-name">A. GHORBAL</strong></td>
+													<td>0</td>
+													<td>0</td>
+													<td>0</td>
+													<td>0</td>
+													<td>0:0</td>
+													<td>0</td>
+												</tr>
 											</tbody>
 										</table>
 									</div>
@@ -1098,7 +1109,7 @@
 											</div>
 											<hr>
 											<ul>
-												<li>Répartition des participants en <strong>groupes de 4.</strong></li>
+												<li>Répartition des participants en <strong>groupes de 4 ou 5.</strong></li>
 												<li>Chaque participant rencontrera tous les autres participants de leur groupe lors d’un <strong>MATCH SIMPLE</strong> sans prolongations.</li>
 												<li>Les points seront comptés comme suit : </li>
 												<ul>
@@ -1107,6 +1118,7 @@
 													<li><strong>Match perdu :</strong> <a class="text-danger">0 point</a></li>
 												</ul>
 												<li>A l’issue de ces rencontres, <strong>le premier de chaque groupe</strong> sera qualifié pour la seconde phase.</li>
+												<li>Pour le tournoi sur <strong>XBOX ONE, les 2 meilleurs deuxièmes de chaque groupe</strong> seront qualifiés pour la seconde phase.</li>
 												<li><strong>Le classement final se fait selon l’ordre des critères suivants :</strong></li>
 												<ol>
 													<li>le plus grand nombre de points obtenus après tous les matches du groupe ;</li>
@@ -1257,15 +1269,6 @@
 											</div>
 											<div data-testid="tournament_rounds_round" class="tournament_rounds_item is-closed">
 												<div class="tournament_rounds_item_head">
-													<div class="tournament_rounds_item_head_title">1/8 de finale</div>
-													<div class="tournament_rounds_item_head_separate"></div>
-													<div class="tournament_rounds_item_head_best_of">
-														Best Of 1
-													</div>
-												</div>
-											</div>
-											<div data-testid="tournament_rounds_round" class="tournament_rounds_item is-closed">
-												<div class="tournament_rounds_item_head">
 													<div class="tournament_rounds_item_head_title">Quart de finale</div>
 													<div class="tournament_rounds_item_head_separate"></div>
 													<div class="tournament_rounds_item_head_best_of">
@@ -1302,30 +1305,108 @@
             </div>
 			<div class="tab-pane" id="bracket">
                 <div class="row g-0 rounded">
-                    <div class="col p-4">
-                        <div class="tournament_bracket_title">
+                    <div class="col pb-4 pt-4 pl-0 pr-0">
+                        <div class="tournament_bracket_title mb-5">
 							<span>Bracket</span>
 						</div>
-						<div class="tournament_tabs_container">
-							<section class="tournament_bracket_tab is-visible">
-								<div class="tournament_bracket is-not-generated">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-										<path fill="currentColor" fill-rule="evenodd" d="M29.325 27.825h5.85v7.987H32.7V30.3h-9.188v5.512h-2.474v-7.987h5.813v-5.1H9.15v5.1h5.812v7.987h-2.474V30.3H3.3v5.512H.825v-7.987h5.85V20.25h10.087v-5.204h2.476v5.204h10.087v7.575zM18 9.946l-3.708 2.05.708-4.34-3-3.074 4.146-.633L18 0l1.854 3.949L24 4.582l-3 3.073.708 4.34L18 9.946z"></path>
-									</svg>
-									<div>
-										<span>Le bracket sera généré au début du tournoi.</span>
-									</div>
-									<div class="tournament_bracket_start_time">
-										<span>
-											Début du tournoi :
-											<br>
-											<span class="tournament_participants_start_time_value">
-												Mercredi 15 Septembre 2021 , 10:00
-											</span>
-										</span>
-									</div>
-								</div>
-							</section>
+						<div class="container">
+                            <div class="bracket">
+                                <div class="bracket_rounds">
+                                    <ul class="bracket_rounds_round">
+                                        <li>quart de finale</li>
+                                        <li>demi-finale</li>
+										<li></li>
+										<li class="p-2"></li>
+										<li>demi-finale</li>
+										<li>quart de finale</li>
+                                    </ul>
+                                </div>
+                                <section class="round ssemifinals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="round sfinals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round finals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+												<div class="trophy">
+													<i class="fa fa-trophy"></i>
+													<div class="bracket_finale mb-3">Finale<br/><span class="round_date">18 Septembre</span></div> 
+												</div>
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round sfinals">
+                                    <div class="winners">
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round ssemifinals">
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="mb-5"></div>
+                            </div>
 						</div>
                     </div>
                 </div>
