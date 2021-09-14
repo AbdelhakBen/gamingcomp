@@ -2897,6 +2897,13 @@ h6 {
     font-size: 18px !important;
     text-align: left;  }
 
+    .team-name {
+      font-size: 12px;
+    }
+
+    .custom-table {
+      font-size: 12px;
+    }
   /* Main Menu Area css
   ============================================================================================ */
   /* End Main Menu Area css
