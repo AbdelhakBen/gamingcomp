@@ -89,11 +89,8 @@
 
 	<section class="container mt-2">
         <ul class="nav nav-tabs tournament_tabs justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link tournament_button active" data-bs-toggle="tab" href="#matchs"> Matchs</a>
-            </li>
 			<li class="nav-item">
-                <a class="nav-link tournament_button" data-bs-toggle="tab" href="#groupes"> Groupes</a>
+                <a class="nav-link tournament_button active" data-bs-toggle="tab" href="#groupes"> Groupes</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link tournament_button" data-bs-toggle="tab" href="#regles"> Règles</a>
@@ -109,30 +106,7 @@
             </li>
         </ul>
         <div class="tab-content">
-            <div class="tab-pane active" id="matchs">
-                <div class="row g-0 rounded">
-                    <div class="col p-4">
-                        <div class="tournament_matchs_title">
-							<span>Matchs</span>
-						</div>
-						<div class="tournament_bracket is-not-generated">
-							<div>
-								<span>Les matchs seront générés au début du tournoi.</span>
-							</div>
-							<div class="tournament_bracket_start_time">
-								<span>
-									Début du tournoi :
-									<br>
-									<span class="tournament_participants_start_time_value">
-										Jeudi 16 Septembre 2021, 10:00
-									</span>
-								</span>
-							</div>
-						</div>
-                    </div>
-                </div>
-            </div>
-			<div class="tab-pane" id="groupes">
+			<div class="tab-pane active" id="groupes">
                 <div class="row g-0 rounded">
                     <div class="col pr-2 pb-4 pt-4 pl-2">
                         <div class="tournament_groupes_title">
@@ -1118,7 +1092,7 @@
 													<li><strong>Match perdu :</strong> <a class="text-danger">0 point</a></li>
 												</ul>
 												<li>A l’issue de ces rencontres, <strong>le premier de chaque groupe</strong> sera qualifié pour la seconde phase.</li>
-												<li>Pour le tournoi sur <strong>XBOX ONE, les 2 meilleurs deuxièmes de tous les groupes</strong> seront qualifiés pour la seconde phase.</li>
+												<li>Pour le tournoi sur <strong>XBOX ONE, les 2 meilleurs deuxièmes de chaque groupe</strong> seront qualifiés pour la seconde phase.</li>
 												<li><strong>Le classement final se fait selon l’ordre des critères suivants :</strong></li>
 												<ol>
 													<li>le plus grand nombre de points obtenus après tous les matches du groupe ;</li>
@@ -1309,7 +1283,112 @@
                         <div class="tournament_bracket_title mb-5">
 							<span>Bracket</span>
 						</div>
-						<div class="container">
+						<div class="col-12 title-section mb-5">
+							<h2 class="heading">Groupes - XBOX ONE</h2>
+						</div>
+						<div class="container mt-5">
+                            <div class="bracket">
+                                <div class="bracket_rounds">
+                                    <ul class="bracket_rounds_round">
+                                        <li>quart de finale</li>
+                                        <li>demi-finale</li>
+										<li></li>
+										<li class="p-2"></li>
+										<li>demi-finale</li>
+										<li>quart de finale</li>
+                                    </ul>
+                                </div>
+                                <section class="round ssemifinals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="connector">
+                                            <div class="merger merger-l"></div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="round sfinals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round finals">
+                                    <div class="winners">
+                                        <div class="matchups">
+                                            <div class="matchup">
+												<div class="trophy">
+													<i class="fa fa-trophy"></i>
+													<div class="bracket_finale mb-3">Finale<br/><span class="round_date">18 Septembre</span></div> 
+												</div>
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round sfinals">
+                                    <div class="winners">
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+								<section class="round ssemifinals">
+                                    <div class="winners">
+                                        <div class="connector">
+                                            <div class="line"></div>
+											<div class="merger merger-r"></div>
+                                        </div>
+										<div class="matchups">
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="matchup">
+                                                <div class="participants">
+                                                    <div class="participant"><span></span></div>
+                                                    <div class="participant"><span></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="mb-5"></div>
+                            </div>
+						</div>
+						<div class="col-12 title-section mb-5">
+							<h2 class="heading">Groupes - PS4</h2>
+						</div>
+						<div class="container mt-5">
                             <div class="bracket">
                                 <div class="bracket_rounds">
                                     <ul class="bracket_rounds_round">
